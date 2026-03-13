@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --background: #09090b;
+  --foreground: #f4f4f5;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-rajdhani);
+}
+
+body {
+  background: radial-gradient(circle at 0% 0%, #111827 0, #09090b 50%);
+  color: var(--foreground);
+}
+
+.font-rajdhani {
+  font-family: var(--font-rajdhani), sans-serif;
+}
