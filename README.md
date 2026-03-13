@@ -79,3 +79,4 @@ Open `http://localhost:3000`.
 - File uploads are stored under `public/uploads`.
 - PDF exports are available under `/api/pdf/*` routes.
 - CSV exports are available under `/api/reports/csv/*` routes.
+- Deployment healthcheck is available at `/api/health` (checks DB + auth env presence).
